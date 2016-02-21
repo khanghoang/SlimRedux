@@ -4,7 +4,7 @@
   "description": "minimal Redux that works",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --compilers js:babel-register test -w"
   },
   "keywords": [
     "reduxjs",
@@ -12,5 +12,14 @@
     "simplest"
   ],
   "author": "hoangtrieukhang@gmail.com",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-core": "^6.5.2",
+    "babel-preset-es2015": "^6.5.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "chai": "^3.5.0",
+    "chai-shallow-deep-equal": "^1.4.0",
+    "mocha": "^2.4.5"
+  }
 }
