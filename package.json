@@ -1,0 +1,16 @@
+{
+  "name": "slim-redux",
+  "version": "0.0.1",
+  "description": "minimal Redux that works",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "reduxjs",
+    "minimal",
+    "simplest"
+  ],
+  "author": "hoangtrieukhang@gmail.com",
+  "license": "MIT"
+}
