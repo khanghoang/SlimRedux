@@ -1,5 +1,5 @@
-import chai, { expect } from 'chai';
 import pick from '../src/pick';
+import chai, { expect } from 'chai';
 chai.use(require('chai-shallow-deep-equal'));
 
 describe('pick function', () => {

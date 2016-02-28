@@ -3,7 +3,7 @@ import { expect } from 'chai';
 import { spy } from 'sinon';
 
 describe('CreateStore', () => {
-  it('should return function', () => {
+  it('should return object', () => {
     expect(createStore()).to.be.a('object');
   });
 
@@ -20,10 +20,13 @@ describe('CreateStore', () => {
       switch (action.type) {
         case "INCREASE":
           return state + 1;
+          break;
         case "DECREASE":
           return state - 1;
+          break;
         default:
           return state;
+          break;
       }
     };
 
