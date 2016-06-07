@@ -11,7 +11,7 @@ describe('mapValue function', () => {
       third: 3
     };
 
-    const tranform = val => val * 2;
+    const transform = val => val * 2;
 
     const expectedOutput = {
       first: 2,
@@ -19,7 +19,7 @@ describe('mapValue function', () => {
       third: 6
     };
 
-    expect(mapValues(inputObject, tranform))
+    expect(mapValues(inputObject, transform))
     .to.shallowDeepEqual(expectedOutput);
 
   });

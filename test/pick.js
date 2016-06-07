@@ -11,13 +11,13 @@ describe('pick function', () => {
       third: 3
     };
 
-    const tranform = val => val > 2;
+    const transform = val => val > 2;
 
     const expectedOutput = {
       third: 3
     };
 
-    expect(pick(inputObject, tranform))
+    expect(pick(inputObject, transform))
     .to.shallowDeepEqual(expectedOutput);
 
   });
